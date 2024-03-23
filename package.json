@@ -1,0 +1,46 @@
+{
+  "name": "@d34dman/commitlint-config",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Shareable commitlint config",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "deps": "dep-check",
+    "pkg": "pkg-check"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d34dman/commitlint-config.git",
+    "directory": "@d34dman/commitlint-config"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "commitlint",
+    "commitlint-config"
+  ],
+  "author": "Shibin Das<shibinkidd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d34dman/commitlint-config/issues"
+  },
+  "homepage": "https://github.com/d34dman/commitlint-config",
+  "engines": {
+    "node": ">=v18"
+  },
+  "devDependencies": {
+    "@commitlint/lint": "^19.1.0",
+    "@commitlint/test-environment": "^9.0.1",
+    "@commitlint/utils": "^9.0.0",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "@commitlint/types": "^19.0.3",
+    "conventional-changelog-conventionalcommits": "^7.0.2"
+  }
+}
